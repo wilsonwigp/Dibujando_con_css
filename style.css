@@ -1,0 +1,129 @@
+:root {
+    --skin:yellow;
+    --background: #ed4042;
+    --red: #ed2860;
+    --dark-red: #680524;
+    --black: #00243a;
+    --white: #fff;
+    --blue:rgb(34, 137, 255);
+    --gray:rgb(107, 106, 106);
+  }
+html{
+    font-size: 62.5%;
+    background: var(--dark-red);
+}
+*{
+    margin:0;
+    padding: 0;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.head{
+    width:100px;
+    height: 200px;
+    background: var(--skin);
+    border-radius: 50px;
+    position: relative;
+}
+
+.eyein{
+    width: 15px;
+    height: 15px;
+    background: black;
+    position: absolute;
+    border-radius: 50%;
+    top:10px;
+}
+.eyeinleft{
+    left:10px;
+}
+.eyeinright{
+    right:10px;
+}
+.eye-left{
+    width: 30px;
+    height: 30px;
+    background: var(--white);
+    border:5px solid var(--gray);
+    position: absolute;
+    top:30px;
+    left:10px;
+    border-radius: 50%;
+}
+.eye-right{
+    width: 30px;
+    height: 30px;
+    background: var(--white);
+    border:5px solid var(--gray);
+    position: absolute;
+    top:30px;
+    right:10px;
+    border-radius: 50%;
+}
+.glass{
+    width: 100px;
+    height: 10px;
+    background: var(--black);
+    position: absolute;
+    top:45px;
+
+}
+.mouth{
+    width: 70px;
+    height: 40px;
+    background: var(--black);
+    position: absolute;
+    left:15px;
+    top:75px;
+    border-radius: 20px 20px 0 0 ;
+}
+.mouthin{
+    width: 70px;
+    height: 20px;
+    background: var(--red);
+    position: absolute;
+    top:20px;
+    border-radius: 10px 10px 0 0;
+    z-index: 10;
+}
+.bottom{
+    width: 97px;
+    height: 80px;
+    background:var(--blue);
+    position: absolute;
+    top:120px;
+    border: 2px dotted black;
+    border-radius: 0 0 20px 20px;
+}
+.pocket{
+    width: 30px;
+    height: 30px;
+    background:var(--blue);
+    position: absolute;
+    top:20px;
+    left: 30px;
+    border: 2px dotted black;
+    border-radius: 0 0 20px 20px;
+}
+.lefthand{
+    width: 20px;
+    height: 45px;
+    background:var(--skin);
+    position: absolute;
+    top:130px;
+    right: 0px;
+    border: 1px dotted black;
+}
+.righthand{
+    width: 20px;
+    height: 45px;
+    background:var(--skin);
+    position: absolute;
+    top:130px;
+    left: 0px;
+    border: 1px dotted black;
+}
